@@ -14,4 +14,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: upload image svg de tou les gnbr.svg
-        path: /graphes/*.svg
+        path: "*.svg"
